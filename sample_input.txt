@@ -1,0 +1,40 @@
+===============================
+ SAMPLE INPUT FOR TESTING
+ STUDENT FINANCE SYSTEM
+===============================
+
+### 1. Create a New User Account
+2          # Choose Sign up
+john       # Username
+1234       # Password
+1234       # Confirm Password
+
+### 2. Login with the Same Account
+1          # Choose Login
+john       # Username
+1234       # Password
+
+### 3. Add Income
+1          # Input Income
+2000       # Income Amount
+
+### 4. Add Expense
+2          # Input Expense
+500        # Expense Amount
+
+### 5. Add Savings Percentage
+3          # Savings Percentage
+10         # 10% savings
+
+### 6. Logout
+0          # Return to Home Screen
+
+### 7. Login Again to Check Persistence
+1          # Login
+john       # Username
+1234       # Password
+
+### 8. Delete Account
+0          # Logout to Home
+3          # Delete Account
+john       # Username to delete
